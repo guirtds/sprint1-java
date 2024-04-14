@@ -1,6 +1,6 @@
 # Sprint1 java - Projeto MyTrend
 
-![Programa](./assets/console.png)
+![Programa](./Documentos/MyTrend.png)
 
 - Acessar Link para vídeo do Projeto: https://youtu.be/bcxfzYwGMmM?si=ZPWaerNrTpIVxYxn
 
