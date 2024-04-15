@@ -42,11 +42,71 @@
 5. Rodar a aplicação
 6. Para requisições utilizar os endpoints que estão disponíveis na documentação do projeto.
 
+
+## Visão geral - Listagem de endpoints 
+### Endpoints Cliente
+- Criar Cliente <br>
+  Método: POST  <br>
+  Endpoint: /api/cliente  <br>
+  Descrição: Cria um novo cliente com os dados fornecidos.  <br>
+  
+- Buscar Cliente  <br>
+  Método: GET  <br>
+  Endpoint: /api/cliente/buscar  <br>
+  Descrição: Busca todos os clientes cadastrados.  <br>
+  
+- Atualizar Cliente
+  Método: PUT  <br>
+  Endpoint: /api/cliente/{id}  <br>
+  Descrição: Atualiza os dados de um cliente específico identificado pelo ID.  <br>
+  
+- Excluir Cliente
+  Método: DELETE  <br>
+  Endpoint: /api/cliente/{id}  <br>
+  Descrição: Exclui um cliente específico identificado pelo ID.  <br>
+
+### Endpoints Endereço
+- Criar Endereço  <br>
+  Método: POST  <br>
+  Endpoint: /api/endereco  <br>
+  Descrição: Cria um novo endereço com os dados fornecidos. <br>
+  
+- Atualizar Endereço  <br>
+ Método: PUT  <br>
+ Endpoint: /api/endereco/{id}  <br>
+ Descrição: Atualiza os dados de um endereço específico identificado pelo ID.  <br>
+- Buscar Endereço  <br>
+Método: GET  <br>
+Endpoint: /api/endereco/buscar  <br>
+Descrição: Busca todos os endereços cadastrados.  <br>
+- Excluir Endereço  <br>
+Método: DELETE  <br>
+Endpoint: /api/endereco/{id}  <br> 
+Descrição: Exclui um endereço específico identificado pelo ID.  <br>
+
+### Endpoints Pedido
+- Criar Pedido <br>
+ Método: POST <br>
+ Endpoint: /api/pedido <br>
+ Descrição: Cria um novo pedido com os dados fornecidos. <br>
+- Atualizar Pedido <br>
+ Método: PUT <br>
+ Endpoint: /api/pedido/{id} <br>
+Descrição: Atualiza os dados de um pedido específico identificado pelo ID. <br>
+- Buscar Pedido <br>
+  Método: GET <br>
+  Endpoint: /api/pedido/buscar <br>
+  Descrição: Busca todos os pedidos cadastrados. <br>
+- Excluir Pedido <br>
+  Método: DELETE <br>
+  Endpoint: /api/pedido/{id} <br>
+  Descrição: Exclui um pedido específico identificado pelo ID. <br>
+
 <br>
-Observação: Diagramas Relacionais e UML estão inseridos na documentação commitada.
 
-
-
+## Observações <br>
+- Observação: Diagramas Relacionais e UML estão inseridos na documentação commitada. <br>
+- Os endpoints listados estão disponíveis na pasta "Enpoints". <br>
 
   
 
